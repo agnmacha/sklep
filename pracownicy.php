@@ -27,6 +27,7 @@
             <li><a href="dlazalogowanych.php">Magazyn</a></li>
             <li><a class="active" href="pracownicy.php">Pracownicy</a></li>
          </ul>
+		<div class="margin">
 		   <?php echo "<h2>Witaj " .$_SESSION['user']. '! [<a href="wylogowanie.php">Wyloguj się!</a>]</h2>'; ?>
        
          <table>
@@ -71,6 +72,7 @@
                </tr>
             </tbody>
          </table>
+		</div>
       </section>
       <?php include 'stopka.html';?>
    </body>

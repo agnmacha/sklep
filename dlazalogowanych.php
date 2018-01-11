@@ -27,6 +27,7 @@
             <li><a class="active" href="dlazalogowanych.php">Magazyn</a></li>
             <li><a href="pracownicy.php">Pracownicy</a></li>
          </ul>
+		  <div class="margin">
          <?php echo "<h2>Witaj " .$_SESSION['user']. '! [<a href="wylogowanie.php">Wyloguj się!</a>]</h2>'; ?>
          <?php
             include 'baza.php';
@@ -38,7 +39,7 @@
             if(mysqli_num_rows($result) > 0){
             	while($row = mysqli_fetch_assoc($result)){
             ?>
-		  
+		
          <table id="s">
             <thead>
                <tr>
@@ -65,7 +66,7 @@
             echo "0 wynikow";
             }
             ?>	
-		  
+		 </div>   
       </section>
       <?php include 'stopka.html'; ?>		
    </body>
