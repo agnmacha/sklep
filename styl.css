@@ -81,6 +81,7 @@ nav a:hover {
      color: #E9E9E9;
      text-align: center;
      font-family: Ubuntu,Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	 
 	
 }
  .icon {
@@ -210,7 +211,7 @@ nav a:hover {
 	h1{font-size: 29px}
 	h2{font-size: 20px;}
 	p{font-size:16px}
-	section {margin-top:80px;}
+	section {margin-top:120px;}
 	nav a{ display: block;
 	width: 100%;	
 	}
